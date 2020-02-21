@@ -1,14 +1,16 @@
 .question {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -14vh;
+  margin-top: -10vh;
 }
 
 .question__text {
   font-family: "Nanum Gothic", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
+  font-weight: 400;
   text-align: center;
   color: white;
   padding-bottom: 0.5em;
@@ -46,4 +48,9 @@
 .question__city .datepicker {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
+}
+
+.question__form ::placeholder {
+  color: white;
+  opacity: 0.5;
 }

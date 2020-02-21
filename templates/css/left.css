@@ -1,0 +1,37 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.day__label {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.2em;
+}
+
+.day .day__count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.day__count .day__left-number {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 12em;
+  text-align: right;
+  color: white;
+}
+
+.day__count .day__left-text {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-size: 9em;
+  text-align: left;
+  color: white;
+}

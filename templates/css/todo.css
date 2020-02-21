@@ -1,0 +1,74 @@
+.todo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right: 2em;
+  min-height: 10000vh;
+}
+
+.todo .subtitle {
+  font-size: 1.4em;
+  font-family: "Rubik", sans-serif;
+  color: white;
+  padding: 1.5em 0em 0.6em 0em;
+  border-bottom: 0.15em solid white;
+}
+
+.card {
+  /* margin-top: 1em; */
+  width: 200px;
+}
+
+.card__image {
+  background-image: url("https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+  width: 200px;
+  height: 140px;
+  border-radius: 0.2em;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 20px;
+  background-size: cover;
+}
+
+.card__disscription p {
+  padding-top: 1em;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: white;
+}
+
+/* 지우기 버튼 */
+
+.card__delete {
+  position: relative;
+  top: 16px;
+  right: -184px;
+  border: none;
+  padding: 1em;
+  border-radius: 32px;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: #202123;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("../images/icon-close-on-light.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card__delete:hover,
+.card__delete:focus {
+  background-image: url("../images/icon-close-on-dark.svg");
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: white;
+}

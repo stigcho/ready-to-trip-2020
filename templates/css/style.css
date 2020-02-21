@@ -1,8 +1,10 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Rubik:500&display=swap&subset=cyrillic,hebrew,korean,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Rubik:300,400,500&display=swap&subset=korean");
 @import "question.css";
 @import "weather.css";
 @import "background.css";
+@import "left.css";
+@import "todo.css";
 @import "../js/Lightweight-jQuery-Date-Input-Picker/lib/themes/default.date.css";
 
 html,
