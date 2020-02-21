@@ -1,0 +1,44 @@
+.contents .question {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -14vh;
+}
+
+.contents .question .question__contents-1 .question__text {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  padding-bottom: 0.5em;
+}
+
+.contents .question .question__contents-1 .question__form {
+  display: flex;
+  justify-content: center;
+}
+
+.contents .question input {
+  width: 100%;
+  height: auto;
+  line-height: normal;
+  padding: 0.4em 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.1em solid white;
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  outline-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.contents .question .question__btn{
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.background {
+  background-image: url("https://images.unsplash.com/photo-1559305289-4c31700ba9cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80");
+  background-size: cover;
+  opacity: 0.9;
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  left: 0;
+  top: 0;
+}

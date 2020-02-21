@@ -1,0 +1,45 @@
+.contents .weather {
+  display: flex;
+  align-items: center;
+  padding: 1.2em;
+  height: 10vh;
+}
+
+.contents .weather .weather__icon {
+  width: 72px;
+  height: 72px;
+}
+
+.contents .weather .weather__text {
+  padding-left: 1.2em;
+}
+
+.contents .weather .weather__temp {
+  display: flex;
+}
+
+.contents .weather .weather__city {
+  display: block;
+}
+
+.contents .weather .weather__temp h6 {
+  font-size: 2em;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  padding-bottom: 0.1em;
+}
+
+.contents .weather .weather__temp p {
+    font-size: 1em;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 0.1em;
+    padding-top: 0.2em;
+  }
+
+.contents .weather .weather__city p {
+  font-size: 1em;
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  padding-top: 0.1em;
+}

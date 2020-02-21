@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link href="./dist/css/datepicker.css" rel="stylesheet" />
+    <title>레디 투 트립에 오신 걸 환영해요!</title>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="contents">
+      <div class="weather">
+        <div class="weather__icon">
+          <img src="./images/icon-sun.svg" alt="sun" />
+        </div>
+        <div class="weather__text">
+          <div class="weather__temp">
+            <h6>22</h6>
+            <p>°C</p>
+          </div>
+          <div class="weather__city">
+            <p>서울</p>
+          </div>
+        </div>
+      </div>
+      <div class="question">
+        <div class="question__contents">
+          <!-- <div class="question__name">
+            <h1 class="question__text">
+              반가워요, 이름이 뭐에요?
+            </h1>
+            <form class="question__form">
+              <input type="text" />
+            </form>
+          </div> -->
+          <div class="question__city">
+            <h1 class="question__text">
+              언제 여행을 떠나세요?
+            </h1>
+            <form class="question__form">
+              <input
+                type="text"
+                id="question__datepicker"
+                data-language="en"
+                data-position="right top"
+              />
+            </form>
+          </div>
+          <div class="question__btn">
+            <button type="button" class="question__btn-button"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./dist/js/datepicker.js"></script>
+    <script type="text/javascript" src="./js/question.js"></script>
+  </body>
+</html>
