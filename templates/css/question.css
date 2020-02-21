@@ -1,4 +1,4 @@
-.contents .question {
+.question {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -6,7 +6,7 @@
   margin-top: -14vh;
 }
 
-.contents .question .question__contents-1 .question__text {
+.question__text {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 4em;
   text-align: center;
@@ -14,12 +14,12 @@
   padding-bottom: 0.5em;
 }
 
-.contents .question .question__contents-1 .question__form {
+.question__form {
   display: flex;
   justify-content: center;
 }
 
-.contents .question input {
+.question input {
   width: 100%;
   height: auto;
   line-height: normal;
@@ -37,8 +37,13 @@
   appearance: none;
 }
 
-.contents .question .question__btn{
+.question__btn {
   padding-top: 2em;
   display: flex;
   justify-content: center;
+}
+
+.question__city .datepicker {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
 }

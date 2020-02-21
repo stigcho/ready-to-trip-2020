@@ -3,6 +3,7 @@
 @import "question.css";
 @import "weather.css";
 @import "background.css";
+@import "../js/Lightweight-jQuery-Date-Input-Picker/lib/themes/default.date.css";
 
 html,
 body {
@@ -21,8 +22,6 @@ body {
   left: 0;
   top: -0;
 }
-
-
 
 .question .question__btn .question__btn-button {
   display: inline-block;
