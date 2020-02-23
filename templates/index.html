@@ -38,16 +38,9 @@
             <h1 class="question__text">
               언제 여행을 떠나세요?
             </h1>
-            <form class="question__form">
-              <input
-                id="exampleDate"
-                class="datepicker"
-                name="date"
-                type="text"
-                value="2020년 9월 24일"
-                data-value="2020-12-24"
-              />
-            </form>
+            <div id="myCalendar" class="vanilla-calendar">
+              <h1>여기가 달력</h1>
+            </div>
           </div>
           <div class="question__btn">
             <button
@@ -59,12 +52,12 @@
         </div>
       </div>
     </div>
-    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-    <script src="../templates/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="../templates/js/date.js"></script>
-    <script src="../templates/js/Lightweight-jQuery-Date-Input-Picker/lib/picker.js"></script>
-    <script src="../templates/js/Lightweight-jQuery-Date-Input-Picker/lib/picker.date.js"></script>
-    <script src="../templates/js/Lightweight-jQuery-Date-Input-Picker/lib/legacy.js"></script>
-    <script src="../templates/js/Lightweight-jQuery-Date-Input-Picker/lib/translations/ko_KR.js"></script>
+    <script src="./js/vanilla-calendar-min.js"></script>
+    <script>
+      let myCalendar = new VanillaCalendar({
+        selector: "#myCalendar",
+        pastDates: false
+      });
+    </script>
   </body>
 </html>

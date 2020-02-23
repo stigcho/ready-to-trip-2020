@@ -5,7 +5,8 @@
 @import "background.css";
 @import "left.css";
 @import "todo.css";
-@import "../js/Lightweight-jQuery-Date-Input-Picker/lib/themes/default.date.css";
+/* @import "vanilla-calendar.css"; */
+@import "vanilla-calendar-min.css";
 
 html,
 body {
