@@ -2,8 +2,9 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 216px;
+  width: 232px;
   height: 100%;
+  padding-left: 24px;
   padding-right: 16px;
   overflow-y: scroll;
 }
@@ -26,9 +27,15 @@
   background-image: url("https://images.unsplash.com/photo-1502680390469-be75c86b636f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
   width: 200px;
   height: 140px;
-  border-radius: 0.2em;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 20px;
+  border-radius: 0.4em;
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 20px; */
   background-size: cover;
+  transition: 250ms ease-in-out, transform 150ms ease;
+}
+
+.card__image:hover {
+  border-radius: 0.4em;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 20px;
 }
 
 .card__disscription p {
@@ -56,7 +63,7 @@
   font-size: 1rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
   background-image: url("../images/icon-close-on-light.svg");
