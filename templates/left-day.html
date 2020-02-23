@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
     <title>레디 투 트립에 오신 걸 환영해요!</title>
   </head>
   <body>
@@ -105,6 +109,7 @@
         </div>
       </div>
       <div class="question">
+        <!-- 남은 날 표시 -->
         <div class="day">
           <div class="day__label">
             <span class="day__label-city">발리</span>
@@ -115,20 +120,28 @@
             <span class="day__left-text">일</span>
           </div>
         </div>
+
+        <!-- 포스팅하기 -->
         <div class="question__contents">
-          <div class="question__city">
+          <div class="question__post">
             <h1 class="question__text">
               어떤 추억을 만들고 싶으세요?
             </h1>
-            <form class="question__form">
+            <form action="/action_page.php">
+              <label for="address"></label>
               <input
                 type="text"
-                placeholder="웹 사이트 주소를 붙여넣어 주세요."
+                id="address"
+                class="post__input"
+                name="address"
+                placeholder="웹 링크 주소를 붙여넣어 주세요."
               />
             </form>
           </div>
+
+          <!-- 버튼 -->
           <div class="question__btn">
-            <button type="button" class="question__btn-button"></button>
+            <button type="button" class="question__btn-next"></button>
           </div>
         </div>
       </div>
