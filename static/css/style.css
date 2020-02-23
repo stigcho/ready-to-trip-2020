@@ -1,12 +1,12 @@
-@import "/templates/static/css/reset.css";
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Rubik:300,400,500&display=swap&subset=korean");
+/* @import "/templates/static/css/reset.css";
 @import "/templates/static/css/question.css";
 @import "/templates/static/css/weather.css";
 @import "/templates/static/css/background.css";
 @import "/templates/static/css/left.css";
 @import "/templates/static/css/todo.css";
 @import "/templates/static/css/post.css";
-@import "/templates/static/css/vanilla-calendar-min.css";
+@import "/templates/static/css/vanilla-calendar-min.css"; */
 
 html,
 body {
