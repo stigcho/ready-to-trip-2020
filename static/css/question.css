@@ -61,7 +61,7 @@
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/static/images/icon-reset-on-light.svg");
+  background-image: url("../images/icon-reset-on-light.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -85,7 +85,7 @@
   transition: background 250ms ease-in-out, transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/static/images/icon-arrow-right-on-light.svg");
+  background-image: url("../images/icon-arrow-right-on-light.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@
 
 .question .question__btn .question__btn-reset:hover,
 .question .question__btn .question__btn-reset:focus {
-  background-image: url("/static/images/icon-reset-on-dark.svg");
+  background-image: url("../images/icon-reset-on-dark.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
