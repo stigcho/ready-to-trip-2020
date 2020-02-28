@@ -4,52 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <link rel="stylesheet" type="text/css" href="/static/css/style.css" /> -->
-    <link
-    rel="stylesheet"
-    type="text/css"
-    href="{{ url_for('static', filename='css/style.css') }}"
-  />
-  <link
-  rel="stylesheet"
-  type="text/css"
-  href="{{ url_for('static', filename='css/reset.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/question.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/weather.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/background.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/left.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/todo.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/post.css') }}"
-/>
-<link
-rel="stylesheet"
-type="text/css"
-href="{{ url_for('static', filename='css/vanilla-calendar-min.css') }}"
-/>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
     <title>레디 투 트립에 오신 걸 환영해요!</title>
   </head>
   <body>
@@ -57,7 +12,7 @@ href="{{ url_for('static', filename='css/vanilla-calendar-min.css') }}"
     <div class="contents">
       <div class="weather">
         <div class="weather__icon">
-          <img src="./static/images/icon-sun.svg" alt="sun" />
+          <img src="../static/images/icon-sun.svg" alt="sun" />
         </div>
         <div class="weather__text">
           <div class="weather__temp">
@@ -137,7 +92,7 @@ href="{{ url_for('static', filename='css/vanilla-calendar-min.css') }}"
         </div>
       </div>
     </div>
-    <script src="/static/js/vanilla-calendar-min.js"></script>
+    <script src="../static/js/vanilla-calendar-min.js"></script>
     <script>
       let myCalendar = new VanillaCalendar({
         selector: "#myCalendar",
