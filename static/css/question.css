@@ -104,7 +104,7 @@
 
 .question .question__btn .question__btn-next:hover,
 .question .question__btn .question__btn-next:focus {
-  background-image: url("/static/images/icon-arrow-right-on-dark.svg");
+  background-image: url("../images/icon-arrow-right-on-dark.svg");
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
